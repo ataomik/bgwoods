@@ -1,0 +1,252 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BgWoods.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BgWoods.ico"
+IDI_ICON_BG1            ICON    DISCARDABLE     "res\\Bg1.ico"
+IDI_ICON_HOW            ICON    DISCARDABLE     "res\\how.ico"
+IDI_ICON_IWD            ICON    DISCARDABLE     "res\\iwd.ico"
+IDI_ICON_SOA            ICON    DISCARDABLE     "res\\soa.ico"
+IDI_ICON_TOB            ICON    DISCARDABLE     "res\\tob.ico"
+IDI_ICON_TSC            ICON    DISCARDABLE     "res\\tsc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_HELP         BITMAP  DISCARDABLE     "res\\Hlp24.bmp"
+IDB_BITMAP_ABOUT        BITMAP  DISCARDABLE     "res\\About.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BGWOODS_DIALOG DIALOGEX 0, 0, 285, 138
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Baldur's Woods"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "&Search",IDSEARCH,229,40,50,12
+    PUSHBUTTON      "OK",IDOK,229,89,50,12
+    PUSHBUTTON      "Cancel",IDCANCEL,229,107,50,12
+    CONTROL         "List1",IDC_LIST_GT,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHAREIMAGELISTS | WS_BORDER | WS_TABSTOP,8,44,69,71,
+                    WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_EDIT_POINTS,134,44,78,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_CUR_POINTS,134,60,78,12,ES_AUTOHSCROLL
+    CONTROL         139,IDC_BITMAP_HELP,"Static",SS_BITMAP | SS_NOTIFY,263,9,
+                    16,15,WS_EX_TRANSPARENT
+    GROUPBOX        " Options ",IDC_STATIC,85,35,137,85
+    GROUPBOX        " Game Type ",IDC_STATIC,3,35,79,85
+    LTEXT           "Points :",IDC_STATIC,95,46,32,7
+    LTEXT           "Cur Points:",IDC_STATIC,95,60,38,8
+    LTEXT           "Click times per second :",IDC_STATIC,95,86,116,10
+    CONTROL         "",IDC_STATIC_FRAME,"Static",SS_ETCHEDFRAME,-2,-2,292,34
+    COMBOBOX        IDC_COMBO_TIMES,94,100,118,74,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         153,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,43,
+                    7,170,22,WS_EX_TRANSPARENT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "BgWoods MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BgWoods\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BgWoods.EXE\0"
+            VALUE "ProductName", "BgWoods Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_BGWOODS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_BGWOODS_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_TIMES, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_TIMES, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_TIMES, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_TIMES, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_TIMES, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_TIMES, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_TIMES, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_TIMES, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_TIMES, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_TIMES, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_TIMES, 0x403, 4, 0
+0x3031, 0x0030, 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BgWoods.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,21 @@
+1. ListView内的图标可被拖动，我没有从控件中找到相关的属性来修改，于是采用了以下的办法：
+	
+Private Sub ListView_MouseDown(Button As Integer, Shift As Integer, x As Single, y As Single)
+  blvDragSignal = True	'有可能引起拖动，设置真值待以后检查
+End Sub
+
+Private Sub ListView_MouseMove(Button As Integer, Shift As Integer, x As Single, y As Single)
+  
+  If Button = vbLeftButton Then '如果是左键，那么进行检查
+    If Not (lvGames.HitTest(x, y) Is Nothing) Then
+      While blvDragSignal '阻止鼠标继续移动
+        DoEvents      
+      Wend
+    End If
+  End If
+End Sub
+
+Private Sub ListView_MouseUp(Button As Integer, Shift As Integer, x As Single, y As Single)
+  blvDragSignal = False '可能引起拖动的状态解除
+End Sub
+				

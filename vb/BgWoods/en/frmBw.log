@@ -1,0 +1,23 @@
+Line 24: Class MSComctlLib.StatusBar of control stbBw was not a loaded control class.
+Line 118: Class MSComctlLib.ListView of control lvGt was not a loaded control class.
+Line 235: Class MSComctlLib.ImageList of control imglstGames was not a loaded control class.
+Line 31: The property name _ExtentX in stbBw is invalid.
+Line 32: The property name _ExtentY in stbBw is invalid.
+Line 33: The property name _Version in stbBw is invalid.
+Line 42: The property name Panels in stbBw is invalid.
+Line 124: The property name _ExtentX in lvGt is invalid.
+Line 125: The property name _ExtentY in lvGt is invalid.
+Line 126: The property name LabelEdit in lvGt is invalid.
+Line 127: The property name LabelWrap in lvGt is invalid.
+Line 128: The property name HideSelection in lvGt is invalid.
+Line 129: The property name _Version in lvGt is invalid.
+Line 130: The property name Icons in lvGt is invalid.
+Line 131: The property name SmallIcons in lvGt is invalid.
+Line 136: The property name NumItems in lvGt is invalid.
+Line 238: The property name _ExtentX in imglstGames is invalid.
+Line 239: The property name _ExtentY in imglstGames is invalid.
+Line 241: The property name ImageWidth in imglstGames is invalid.
+Line 242: The property name ImageHeight in imglstGames is invalid.
+Line 243: The property name MaskColor in imglstGames is invalid.
+Line 244: The property name _Version in imglstGames is invalid.
+Line 267: The property name Images in imglstGames is invalid.
